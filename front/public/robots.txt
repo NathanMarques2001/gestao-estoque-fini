@@ -1,3 +1,11 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /gestao
+Disallow: /logs
+Disallow: /reposicoes
+Disallow: /entrada
+Disallow: /transferencias
+Disallow: /inventario
+Disallow: /relatorios
+
+Allow: /login
+Allow: /home
