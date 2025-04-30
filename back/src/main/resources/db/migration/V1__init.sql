@@ -34,6 +34,7 @@ CREATE TABLE estoques (
 CREATE TABLE produtos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
+	nome_fornecedor VARCHAR(255) NOT NULL,
     fornecedor_id INT NOT NULL,
     preco_compra DECIMAL(10,2) NOT NULL,
     preco_venda DECIMAL(10,2) NOT NULL,
